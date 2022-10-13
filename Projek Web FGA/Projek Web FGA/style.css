@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.trending {
+    padding: 180px 0 100px 0;
+    background-image: url(https://images.pexels.com/photos/1055408/pexels-photo-1055408.jpeg?cs=srgb&dl=pexels-daniel-frese-1055408.jpg&fm=jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .trending h1 {
+    text-shadow: #000000 1px 0 10px; 
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .trending p {
+    font-size: 20px;
+    text-shadow: #000000 10px 0px 10px;
+    margin-bottom: 5px;
+  }
+  
+  .btn-trending {
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    opacity: 1;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .beli {
+    cursor: pointer;
+    box-shadow: 0 4px #8aea6e;
+    background-color: white;
+    animation: borderPulse 1000ms infinite ease-out;
+  }
+  
+  @keyframes borderPulse {
+    0% {
+      box-shadow: inset 0px 0px 0px 5px rgba(138, 234, 110,.4), 0px 0px 0px 0px rgba(138, 234, 110,1);
+    }
+    100% {
+      box-shadow: inset 0px 0px 0px 3px rgba(138, 234, 110,.2), 0px 0px 0px 10px rgba(138, 234, 110,0);
+    }
+  }
+  
+  .beli:active {
+    position: relative;
+    top: 4px; 
+    color: #367b21;
+  }
+
+.gallery {
+    float: left;
+    width: 100%;
+    padding-left: 16px;
+    background-color: greenyellow;
+}
+
+.text-title {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
+    float: inherit;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 23%;
+    background-color: aquamarine;
+ }
+
+.card img {
+   float: left;
+   margin: 8px 0 16px 40px;  
+ }
+
+ .plant-title {
+     font-size: small;
+     text-align: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     padding: 0;
+     text-transform: uppercase;
+ }
+
+ .plant-desc {
+     padding: 2px 8px;
+     text-align: justify;
+ }
+
+ .see-more {
+     text-align: end;
+ }
